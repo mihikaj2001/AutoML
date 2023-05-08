@@ -1,0 +1,20 @@
+# This is The result of having tested on Azure Machine Learning Studio, using Automated ML.
+
+## Input: 
+Training dataset: Clean-credit-train.csv
+Testing Dataset: Clean-credit-test.csv
+
+Target column: **Class**
+Determines if the creditcard transaction can be classified as legit (0) or fraud (1)
+
+## Aim of the project:
+To build a model that uses the given dataset, w
+
+## Pre-processing Steps
+The files already had the following tasks done oon them:
+PCA - already done on raw dataset
+Scaling - done before sendong in the input
+Handling Missing values
+Handling Outliers
+Handling Skew using Powertrain
+Random oversampling - handle class imbalance
